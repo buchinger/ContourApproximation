@@ -1,0 +1,36 @@
+file = open("C:\\Users\\udesc\\Downloads\\results\\fitness.txt", "r")
+line = file.readline()
+line = line.replace("\n", "")
+samples = int( line )
+names = []
+datasets = []
+
+for s in range(1,samples+1):
+    outline = "c" + str(s) + " = c("
+    name = file.readline()
+    name = name.replace("\n", "")
+    names.append( name )
+    datasets.append( "c" + str(s) )
+   
+    for i in range(0,30):
+        value = file.readline()
+        value = value.replace("\n", "")
+        value = value.replace(",", ".")
+        outline += value
+        if( i < 29 ):
+            outline += ", "
+
+    outline += ")\n"
+    print( outline )
+
+   
+print("yLabel <- list( title = \"Fitness (ISE)\" )\n")
+print("plot_ly( type=\'box\', ) %>%\n")
+
+for s in range(0, samples):
+   print("     add_boxplot( y = "+datasets[s]+", name = \""+names[s]+"\", boxpoints = 'all' )    %>%\n")
+
+print("     layout(yaxis = yLabel, showlegend = FALSE)")
+
+
+   

@@ -1,0 +1,141 @@
+@article{wang-etal:2014,
+  title     = {Polygonal approximation using integer particle swarm optimization},
+  author    = {Bin Wang and Douglas Brown and Xiaozheng Zhang and Hanxi Li and Yongsheng Gao and Jie Cao},
+  journal   = {Information Sciences},
+  volume    = {278},
+  pages     = {311-326},
+  year      = {2014}
+}
+
+@article{xiuyang-etal:2011,
+  title     = {Adaptive knot placement using a GMM-based continuous optimization algorithm in B-spline curve approximation},
+  author    = {Zhao Xiuyang and Zhang Caiming and Yang Bo and Li Pingping},
+  journal   = {Computer-Aided Design},
+  volume    = {43},
+  pages     = {598-604},
+  year      = {2011}
+}
+
+@inproceedings{liu-etal:2012,
+  title     = {A Direction Change-based Algorithm for Polygonal Approximation},
+  author    = {Han Liu and Xiangliang Zhang and Alyn Rockwood},
+  booktitle = {International Conference on Pattern Recognition (ICPR 2012)},
+  adress    = {Tsukuba, Japan},
+  volume    = {21},
+  pages     = {3586-3589},
+  month     = {nov.},
+  year      = {2012}
+}
+
+@incollection{price:1999,
+  title     = {An Introduction to Differential Evolution},
+  chapter   = {10},
+  author    = {Kenneth Price},
+  editor    = {David Corne and Marco Dorigo and Fred Glover},
+  booktitle = {New Ideas in Optimization},
+  publisher = {McGraw-Hill},
+  address   = {Berkshire},
+  year      = {1999},
+  pages     = {77-108},
+  isbn      = {0077095065}
+}
+
+@article{yang-etal:2004,
+  title     = {Control point adjustment for B-spline curve approximation},
+  author    = {Huaiping Yang and Wenpiung Wang and Jiaguang Sun},
+  journal   = {Computer-Aided Design},
+  volume    = {36},
+  pages     = {639-652},
+  year      = {2004}
+}
+
+@article{yin:2003,
+  title     = {Ant colony search algorithms for optimal polygonal approximation of plane curves},
+  author    = {Peng-Yeng Yin},
+  journal   = {Pattern Recognition},
+  volume    = {36},
+  pages     = {1783-1797},
+  year      = {2003}
+}
+
+@article{yin:2004,
+  title     = {A discrete particle swarm algorithm for optimal polygonal approximation of digital curves},
+  author    = {Peng-Yeng Yin},
+  journal   = {Journal of Visual Communication \& Image Representation},
+  volume    = {15},
+  pages     = {241-260},
+  year      = {2004}
+}
+
+@incollection{pavlidis:1982,
+  title     = {Approximation of Curves},
+  chapter   = {12},
+  author    = {T. Pavlidis},
+  booktitle = {Algorithms for Graphics and Image Processing},
+  publisher = {Springer},
+  address   = {Berlin, Heidelberg},
+  year      = {1982},
+  pages     = {77-108},
+  isbn      = {9783642932083}
+}
+
+@book{mortenson:2006,
+  title     = {Geometric Modeling},
+  author    = {Michael E. Mortenson},
+  edition   = {3},
+  publisher = {Industrial Press Inc.},
+  address   = {New York},
+  year      = {2006},
+  isbn      = {0831132981},
+}
+
+@article{freeman:1961,
+  title     = {On the Encoding of Arbitrary Geometric Configurations},
+  author    = {Herbert Freeman},
+  journal   = {IRE Transactions on Electronic Computers},
+  volume    = {EC-10},
+  issue     = {2},
+  pages     = {241-260},
+  year      = {1961}
+}
+
+@article{teh-chin:1989,
+  title     = {On the Detection of Dominant Points on Digital Curves},
+  author    = {Cho-Huak Teh and Roland T. Chin},
+  journal   = {IEEE Transactions on pattern analysis and machine intelligence},
+  volume    = {11},
+  issue     = {8},
+  pages     = {859-872},
+  year      = {1989}
+}
+
+@article{alexa-etal:2003,
+  title     = {Computing and rendering point set surfaces},
+  author    = {M. Alexa and J. Behr and D. Cohen-Or and S. Fleishman and D. Levin and C.T. Silva},
+  journal   = {IEEE Transactions on Visualization and Computer Graphics},
+  volume    = {9},
+  issue     = {1},
+  pages     = {3-15},
+  year      = {2003}
+}
+
+@inproceedings{qin-etal:2003,
+  title     = {Self-adaptive Differential Evolution Algorithm for Numerical Optimization},
+  author    = {A.K. Qin and P.N. Suganthan},
+  booktitle = {The 2005 IEEE Congress on Evolutionary Computation (IEEE CEC 2005)},
+  adress    = {Edinburgh, Scotland},
+  volume    = {3},
+  pages     = {1785-1791},
+  month     = {sep.},
+  year      = {2005}
+}
+ 
+@article{corriveaua-etal:2013,
+  title     = {Review of phenotypic diversity formulations for diagnostic tool},
+  author    = {Guillaume Corriveaua and Raynald Guilbault and Antoine Tahana and Robert Sabourinb},
+  journal   = {Applied Soft Computing},
+  volume    = {13},
+  pages     = {9-26},
+  year      = {2013}
+}
+

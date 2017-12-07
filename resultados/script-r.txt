@@ -1,0 +1,111 @@
+https://plot.ly/r/axes/
+https://plot.ly/r/figure-labels/
+https://plot.ly/r/box-plots/#basic-boxplot
+
+*opcional: https://www.r-bloggers.com/box-plot-with-r-tutorial/
+
+wilcox.test(c1,c2, paired=TRUE )
+shapiro.test(c1)
+shapiro.test(c2)
+t.test(c3, c4, paired=TRUE, alt = "greater")
+
+Chromossome:
+V = 365, p-value = 0.005383
+
+Leaf:
+V = 462, p-value = 9.313e-09
+V = 440, p-value = 1.684e-06
+	
+
+Semicircle
+V = 435, p-value = 3.79e-06
+V = 316, p-value = 0.08794
+
+
+-------------------------------------------
+
+Arlington
+V = 429, p-value = 9.22e-06
+V = 418, p-value = 3.904e-05
+
+Como
+V = 431, p-value = 6.918e-06
+V = 381, p-value = 0.001583
+
+Managua
+V = 465, p-value = 1.863e-09
+V = 432, p-value = 5.974e-06
+
+Simcoé
+V = 418, p-value = 3.904e-05
+V = 427, p-value = 1.218e-05
+
+
+-------------------------------------------
+wilcox.test(c1,c2, paired=TRUE )
+wilcox.test(c3,c4, paired=TRUE )
+
+Laguna-Seca
+
+
+Nürburgring
+
+
+Silverstone
+
+
+
+
+===========================================
+library(plotly)
+
+c1 = c(
+7.600864289,
+7.583238676,
+5.484229132,
+5.408382128,
+6.216644125,
+5.085523699,
+11.98834453,
+4.635556522,
+5.802896793,
+6.701225376,
+7.25049775,
+5.873777583,
+5.21193806)
+
+c2 = c(
+5.722775838,
+5.514429677,
+4.795000631,
+5.598289485,
+4.491561258,
+5.179661472,
+4.785733839,
+19.106,
+4.872940399,
+9.872462475,
+4.324847365,
+6.397275324,
+4.508648877
+)
+
+yLabel <- list( title = "Fitness (ISE)" )
+p <- plot_ly(type='box', ) %>%
+	add_boxplot( y = c1, name = "Chromossome (12)\nDE", boxpoints = 'all' )    %>%
+	add_boxplot( y = c2, name = "Chromossome (12)\nSaDE", boxpoints = 'all' )  %>%
+	layout(yaxis = yLabel, showlegend = FALSE)
+
+% layout(yaxis = yLabel, showlegend = FALSE, title = "Box Plot Styling Outliers")
+
+
+
+
+
+
+	
+data<-data.frame( c1, c2, c1, c2 )
+nomes <- c("Chromossome (12)\nDE",  "Chromossome (12)\nSaDE", "Chromossome (20)\nDE",  "Chromossome (20)\nSaDE")
+boxplot( data, ylab="Fitness", at =c(1,2, 3,4), names=nomes)
+	
+
